@@ -9,7 +9,7 @@ before_install:
   - docker build -t mohamedbalbola/docker-react -f Dockerfile .
 
 script:
-  - docker run -e CI=true mohamedbalbola/docker-react  
+  - docker run -e CI=true mohamedbalbola/docker-react -- --coverage  
 
 deploy:
   provider: elasticbeanstalk
