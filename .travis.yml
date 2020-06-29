@@ -13,8 +13,8 @@ deploy:
   access_key_id: $Access_key_ID
   secret_access_key: $Secret_access_key
   region: "us-east-1"
-  app: "Docker"
-  env: "Docker-env"
+  app: "Docker1"
+  env: "Docker1-env""
   bucket_name: "elasticbeanstalk-us-east-1-663322992657"
   bucket_path: "Docker"
   on: 
